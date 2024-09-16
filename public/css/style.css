@@ -1,0 +1,17 @@
+/* Customizing DataTables table style */
+table.dataTables {
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+    border-collapse: collapse;
+}
+
+table.dataTables thead th,
+table.dataTables tbody td {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+div.dataTables_wrapper div.dataTables_length, div.dataTables_wrapper div.dataTables_filter, div.dataTables_wrapper div.dataTables_info, div.dataTables_wrapper div.dataTables_paginate {
+    background-color: salmon !important ;
+}
